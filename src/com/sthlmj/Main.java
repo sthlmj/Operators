@@ -46,5 +46,24 @@ public class Main {
 
         result /= 10;  //decrement by /10
         System.out.println("Result is now " + result);
+
+        boolean isAlien = false;  //sets isAlien to false
+        if (isAlien == false)  //evaluate if isAlien is false, if false sout.
+            System.out.println("It is not an alien!");
+
+        int topScore = 100;  //sets topScore to 100
+        if (topScore >= 100)  //evaluate if topScore == 100 or != 100 or >= 100 or < 100 or <= 100
+            System.out.println("You got the high score!");
+        else
+            System.out.println("You didn't get the high score :(");
+
+        int secondTopScore = 60;  //sets secondTopScore to 60
+        if(topScore > secondTopScore && topScore < 100)  //evaluates if topScore is bigger then secondTopScore and topScore less then 100. Both conditions must be true to run the if.
+            System.out.println("Greater than top score less then 100");
+        else
+            System.out.println("topScore is set to: " + topScore);
+            System.out.println("secondTopScore is set to: " + secondTopScore);
+            System.out.println("And you wanted to evaluate if: " + "topScore > secondTopScore && topScore < 100 ");
+            System.out.println("topScore is: " + topScore + " and secondTopScore is: " + secondTopScore);
     }
 }
